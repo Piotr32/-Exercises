@@ -1,0 +1,19 @@
+package pl.pawluk.methods;
+
+/* ### Zadanie 15
+
+Napisz program,który oblicza wynik dzielenia całkowitego dówch liczb całkowitych a = 37 i b = 11;
+ */
+public class Main15 {
+
+    public static void main(String[] args) {
+
+        int a = 37;
+        int b = 11;
+
+        System.out.println("Program oblicza resztę z dzielenia całkowitego");
+        System.out.println("dla dwóch liczb całkowitych.");
+        System.out.println("Dla liczb: a = " + a + ", b = " + b);
+        System.out.println(a + "%" + b + " = " + a%b + ".");
+    }
+}
